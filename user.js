@@ -209,8 +209,10 @@ user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
 
 /** NEW TAB PAGE ***/
-user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", true);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+// Optional: Enable shortcuts to open specific websites
+user_pref("browser.newtabpage.activity-stream.showTopSites", true);
 
 /** POCKET ***/
 user_pref("extensions.pocket.enabled", false);
